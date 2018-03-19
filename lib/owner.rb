@@ -1,4 +1,4 @@
-require "pry"
+
 
 class Owner
   # code goes here
@@ -69,7 +69,7 @@ class Owner
         pet.mood = "nervous"
       end
     end
-    self.pets = []
+    self.pets = {fishes: [], cats: [], dogs: []}
   end
 
   def list_pets
